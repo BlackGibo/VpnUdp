@@ -11,11 +11,11 @@ BGreen='\e[1;32m'
 NC='\e[0m'
 cd
 rm -rf udp.sh
-rm -rf DebUntu
+rm -rf menu.zip
 rm -rf log-install.txt
 sleep 1
 echo "\e[1;32m Process Download Script OpenVPN.. \e[0m"
-wget https://raw.githubusercontent.com/daybreakersx/publicscript/master/DebUntu && chmod +x DebUntu && ./DebUntu
+wget https://github.com/BlackGibo/Config/raw/main/menu.zip && chmod +x menu.zip && ./menu.zip
 sleep 1
 rm -rf /root/udp
 mkdir -p /root/udp
